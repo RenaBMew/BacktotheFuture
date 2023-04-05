@@ -16,14 +16,14 @@
 }
 
 .body__p3 {
-    background-image: url(./images.p3/p3.bg.png);
+    background-image: url(./photos/p3.bg.png);
     background-color: var(--p3bg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 100vh;
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.3em;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -40,19 +40,20 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Franklin Gothic Heavy', italic;
-    color: var(--yellow);
-    font-size: 35px;
+    font-family: 'Franklin Gothic Heavy', 'Changa One', Impact;
     font-style: italic;
+    color: var(--yellow);
+    font-size: 2em;
     padding: 10px;
 }
 
 h2,
 h3,
 h4 {
-    font-family: 'Franklin Gothic Heavy', italic;
+    font-family: 'Franklin Gothic Heavy', 'Changa One', Impact;
+    font-style: italic;
     color: var(--aqua);
-    font-size: 30px;
+    font-size: 1.5em;
     text-align: left;
 }
 
@@ -69,7 +70,8 @@ nav {
 }
 
 .navbar a.link {
-    font-size: 28px;
+    font-family: 'Franklin Gothic Heavy', 'Changa One', Impact;
+    font-size: 1.5em;
     color: var(--silver);
     padding: 12px;
 }
@@ -97,6 +99,7 @@ nav {
 
 .intro__p3-logo-p {
     text-align: center;
+    margin-bottom: 50px;
     text-shadow:
         0 0 7px var(--orange),
         0 0 31px var(--orange),
@@ -173,7 +176,7 @@ nav {
     width: 300px;
     height: 200px;
     position: absolute;
-    border-radius: 20px 40px;
+    border-radius: 20px 20px;
     border: 2px solid var(--yellow);
 }
 
@@ -183,7 +186,7 @@ nav {
     background: rgba(43, 46, 51, 0.9);
     position: absolute;
     opacity: 0;
-    border-radius: 20px 40px;
+    border-radius: 20px 20px;
     border: 2px solid var(--yellow);
     transition: all 600ms ease-in-out;
     -webkit-transition: all 600ms ease-in-out;
@@ -193,54 +196,13 @@ nav {
 }
 
 .img__p3-caption-p {
+    margin-top: 50px;
     padding: 10px;
     text-align: center;
     color: var(--yellow);
 }
 
 .img__p3-box:hover .img__p3-caption {
-    opacity: 1;
-}
-
-.img__p3-boxv {
-    float: left;
-    width: 300px;
-    height: 450px;
-    position: relative;
-    margin: 15px;
-    cursor: pointer;
-}
-
-.img__p3-box-imgv {
-    width: 300px;
-    height: 450px;
-    position: absolute;
-    border-radius: 20px 40px;
-    border: 2px solid var(--yellow);
-}
-
-.img__p3-captionv {
-    width: 100%;
-    height: 100%;
-    background: rgba(43, 46, 51, 0.9);
-    position: absolute;
-    opacity: 0;
-    border-radius: 20px 40px;
-    border: 2px solid var(--yellow);
-    transition: all 600ms ease-in-out;
-    -webkit-transition: all 600ms ease-in-out;
-    -moz-transition: all 600ms ease-in-out;
-    -o-transition: all 600ms ease-in-out;
-    -ms-transition: all 600ms ease-in-out;
-}
-
-.img__p3-caption-pv {
-    padding: 10px;
-    text-align: center;
-    color: var(--yellow);
-}
-
-.img__p3-boxv:hover .img__p3-captionv {
     opacity: 1;
 }
 
