@@ -60,7 +60,10 @@ h4 {
 /************** PART III --- Navigation Bar *****************/
 
 nav {
+    background-color: rgba(5, 9, 18, .3);
+    position: fixed;
     display: flex;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -176,7 +179,7 @@ nav {
     width: 300px;
     height: 200px;
     position: absolute;
-    border-radius: 20px 20px;
+    border-radius: 20px 40px;
     border: 2px solid var(--yellow);
 }
 
@@ -186,7 +189,7 @@ nav {
     background: rgba(43, 46, 51, 0.9);
     position: absolute;
     opacity: 0;
-    border-radius: 20px 20px;
+    border-radius: 20px 40px;
     border: 2px solid var(--yellow);
     transition: all 600ms ease-in-out;
     -webkit-transition: all 600ms ease-in-out;
@@ -266,3 +269,6 @@ nav {
     color: var(--silver);
     padding: 20px;
 }
+
+
+
