@@ -19,6 +19,8 @@
 
 * Each collaborator wanted to have a page reflecting their own coding style, so the group agreed to have certain elements be unified like the nav bar and image gallery across the pages.
 
+* Amy, Olivia and Jadelyn commited changes as they were working, Serena commited once the  majority of her coding was complete.
+
 &nbsp;
 ## Website Style Guide
 
@@ -44,7 +46,13 @@ Groups will be selected by your instructor and consist of 3-4 members per group.
     7. Utilize BEM naming conventions for its CSS rules.
     8. Include at least one usage of CSS transitions.
     9. Include at least one usage of CSS animations.
-    10. Include a README in the GitHub repository for the project that details any challenges encountered during development as well as a link to the deployed website. 11. Additionally, all group members must have a similar amount of git commits to the project to receive full-credit. The instructor will review the git history of the project on GitHub to ensure that all group members fairly contributed to the project. Any glaring disparities in the commit history of the project must be justified in the README for the project. Deployment Your group leader must deploy your site to GitHub Pages. To deploy a repository to GitHub pages:
+    10. Include a README in the GitHub repository for the project that details any challenges encountered during development as well as a link to the deployed website. 
+    11. Additionally, all group members must have a similar amount of git commits to the project to receive full-credit. The instructor will review the git history of the project on GitHub to ensure that all group members fairly contributed to the project. Any glaring disparities in the commit history of the project must be justified in the README for the project. 
+
+Deployment 
+Your group leader must deploy your site to GitHub Pages. 
+
+To deploy a repository to GitHub pages:
     12. Ensure your repository has an index.html file in the root directory.
     13. Navigate to the settings section of the repository.
     14. Click on pages in the left navigation menu.
