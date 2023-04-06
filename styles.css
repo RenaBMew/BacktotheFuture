@@ -304,3 +304,176 @@ nav {
     color: var(--silver);
     padding: 20px;
 }
+
+/*************************************************************/
+
+/***************** Back to the Future II *********************/
+.body__p2 {
+
+    background-image: url(photos/NBP-grit-13\ copy.jpg);
+    margin: auto;
+    padding: 0 120px 0 120px;
+    background-color: var(--p2bg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+}
+
+
+  /***************** Part II Nav Bar & logo ********************/
+  nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header__link {
+    font-size: 30px;
+    padding: 80px 0 0 0;
+    margin-right: 40px;
+    color: #ffb219;
+}
+  .header__link, .header__logo, .main__link {
+    text-decoration: none;
+  }
+  
+  .nav > a:not(:first-of-type){
+    margin-left: 24px;
+  }
+  
+  .header__logo {
+    margin-right: auto;
+    text-transform: uppercase;
+    max-height: 260px;
+  }
+
+  .intro__p3-logo-p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    text-shadow:
+        0 0 7px var(--aqua),
+        0 0 31px var(--aqua),
+        0 0 92px var(--aqua),
+        0 0 100px var(--aqua);
+}
+
+/*****************  PART II --- Original content  ******************/
+
+#hero {
+    height:900px;
+    background-image: url(photos/bttf2covergraphic.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:start;
+    text-align: center;
+    max-height: 450px;
+    margin-bottom: 96px;
+    box-shadow: 4px 4px 10px var(--gray);
+    background-color: var(--dark-gray);
+    padding-left: 30px;
+  }
+
+ 
+
+
+  .img__p3-cast-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.img__p2-cast {
+    display: block;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid var(--yellow);
+    margin: 10px;
+}
+
+.img__p2-cast-info {
+    margin-bottom: 25px;
+    color: var(--yellow);
+    text-align: center;
+}
+  
+
+/**************** Media Queries ************************
+
+
+@media screen and (max-width: 600px) {
+
+    .body {
+        max-width: 500px;
+    }
+    
+    .navbar a.link {
+        font-size: 20px;
+        color: var(--silver);
+        padding: 12px;
+        line-height: 30px;
+        display: inline-block;
+    }
+
+    .header__logo > img {
+        margin-right: auto;
+        max-width: 35%vw;
+        display: inline-block;
+        
+      }
+    
+    .intro__p2 {
+        display: inline-block;
+        padding-top: 100px;
+        color: var(--silver);
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .sec__img-p2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__p2-wrap {
+        max-width: min-content;
+    }
+
+    .body__p2 {
+        background-size: 100vh;
+        justify-content: center;
+        margin-right: 0;
+        background-repeat: repeat;
+    }
+
+    .footer__p2 {
+        text-align: center;
+        margin-top: 20px;
+        background-color: var(--p3bg);
+        color: var(--silver);
+        padding: 20px;
+    }
+
+}
+
+
+
+
