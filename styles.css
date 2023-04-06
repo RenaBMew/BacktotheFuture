@@ -381,65 +381,6 @@ nav {
 }
   
 
-/**************** Media Queries ************************
-
-
-@media screen and (max-width: 600px) {
-
-    .body {
-        max-width: 500px;
-    }
-    
-    .navbar a.link {
-        font-size: 20px;
-        color: var(--silver);
-        padding: 12px;
-        line-height: 30px;
-        display: inline-block;
-    }
-
-    .header__logo > img {
-        margin-right: auto;
-        max-width: 35%vw;
-        display: inline-block;
-        
-      }
-    
-    .intro__p2 {
-        display: inline-block;
-        padding-top: 100px;
-        color: var(--silver);
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    .sec__img-p2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img__p2-wrap {
-        max-width: min-content;
-    }
-
-    .body__p2 {
-        background-size: 100vh;
-        justify-content: center;
-        margin-right: 0;
-        background-repeat: repeat;
-    }
-
-    .footer__p2 {
-        text-align: center;
-        margin-top: 20px;
-        background-color: var(--p3bg);
-        color: var(--silver);
-        padding: 20px;
-    }
-
-}
 
 
 =======
