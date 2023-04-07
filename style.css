@@ -365,38 +365,3 @@ nav {
     margin-right: 0;
     background-repeat: repeat;
 }
-
-/*************INDEX PAGE************/
-
-
-
-.heroBanner{
-    position: relative;
- }
-
- .heroBanner img{
-    object-fit: cover;
-    width: 100%;
-    display: block;
- }
-
- footer{
-    background-color: navy;
-    text-align: center;
-    color: silver;
-    padding: 20px 0;
-    bottom: 0;
-    width: 100%;
- }
-
- h1{
-    font-family: 'Franklin Gothic 25 HeavyItalic', sans-serif;
- }
-
- h2{
-    font-family: 'Franklin Gothic 20 HeavyItalic', sans-serif;
- }
-
- p{
-    font-family: 'Helvetica', sans-serif;
- }
