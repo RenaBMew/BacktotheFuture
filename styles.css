@@ -271,6 +271,48 @@ nav {
     padding: 20px;
 }
 
+/**********Home_Page********/
+
+
+.heroBanner{
+    position: relative;
+ }
+
+ .heroBanner img{
+    object-fit: cover;
+    width: 100%;
+    display: block;
+ }
+
+ footer{
+    background-color: navy;
+    text-align: center;
+    color: silver;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+ }
+ 
+ p, a{
+    font-family: 'Helvetica', sans-serif;
+ }
+
+.header__link {
+    font-size: 30px;
+    padding: 80px 0 0 0;
+    margin-right: 40px;
+    color: #ffb219;
+}
+  .header__link, .header__logo, .main__link {
+    text-decoration: none;
+  }
+   
+  .header__logo {
+    margin-right: auto;
+    text-transform: uppercase;
+    max-height: 260px;
+  }
+
 /*************************************************************/
 
 /***************** Back to the Future II *********************/
@@ -408,6 +450,7 @@ nav {
     background-color: rgba(5, 9, 18, .8);
     margin: 0 auto;
 }
+
 
 
 
