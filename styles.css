@@ -271,7 +271,6 @@ nav {
     padding: 20px;
 }
 
-<<<<<<< HEAD
 /*************************************************************/
 
 /***************** Back to the Future II *********************/
@@ -279,7 +278,7 @@ nav {
 
     background-image: url(photos/NBP-grit-13\ copy.jpg);
     margin: auto;
-    padding: 0 120px 0 120px;
+    padding: 0;
     background-color: var(--p2bg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -298,33 +297,24 @@ nav {
 
 
   /***************** Part II Nav Bar & logo ********************/
-  nav {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
 
-.header__link {
-    font-size: 30px;
-    padding: 80px 0 0 0;
-    margin-right: 40px;
-    color: #ffb219;
-}
-  .header__link, .header__logo, .main__link {
-    text-decoration: none;
-  }
+
   
-  .nav > a:not(:first-of-type){
+.nav > a:not(:first-of-type){
     margin-left: 24px;
   }
   
-  .header__logo {
-    margin-right: auto;
-    text-transform: uppercase;
-    max-height: 260px;
-  }
+.intro__p2 {
+    display: inline-block;
+    padding-top: 300px;
+    color: var(--silver);
+}
 
-  .intro__p3-logo-p {
+.intro__p2-logo {
+    width: 450px;
+}
+
+.intro__p2-logo-p {
     text-align: center;
     font-size: 25px;
     line-height: 30px;
@@ -346,25 +336,10 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items:start;
-    text-align: center;
     max-height: 450px;
-    margin-bottom: 96px;
-    box-shadow: 4px 4px 10px var(--gray);
-    background-color: var(--dark-gray);
+    margin-bottom: 0;
     padding-left: 30px;
   }
-
- 
-
-
-  .img__p3-cast-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
-    margin-top: 50px;
-}
 
 .img__p2-cast {
     display: block;
@@ -380,10 +355,61 @@ nav {
     text-align: center;
 }
   
+.img__p3-boxv {
+    float: left;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.img__p3-box-imgv {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    border-radius: 20px 40px;
+    border: 2px solid var(--yellow);
+}
+
+.img__p3-captionv {
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 46, 51, 1);
+    position: absolute;
+    opacity: 0;
+    border-radius: 20px 40px;
+    border: 2px solid var(--yellow);
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+}
+
+.img__p3-caption-pv {
+    padding: 10px;
+    text-align: center;
+    color: var(--yellow);
+}
+
+.img__p3-boxv:hover .img__p3-captionv {
+    opacity: 1;
+}
+
+#img-boxes-p2 {
+    margin: 0 50px;
+}
+
+.vimages {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(5, 9, 18, .8);
+    margin: 0 auto;
+}
 
 
 
-=======
->>>>>>> c95f073da8a269adb14c7f9cf92e4fec8c336012
 
 
