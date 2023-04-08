@@ -1,4 +1,6 @@
-# Group Assignment: Webpage with Organized CSS Styles - Back to the Future Series
+# Group Assignment: Webpage with Organized CSS Styles
+
+* [Back to the Future Series](https://renabmew.github.io/BacktotheFuture/index.html)
 
 &nbsp;
 
