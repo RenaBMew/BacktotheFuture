@@ -25,6 +25,19 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.body__p1 {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.3em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-color: var(--p3bg);
+  color: var(--silver);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 a:link,
 a:visited,
 a:active {
@@ -550,14 +563,10 @@ nav {
   }
 
   .main__hero {
-    padding-top: 220px;
-  }
-
-  hr {
-    margin-right: 130px;
+    padding-top: 120px;
   }
 
   .logo {
-    width: 220px;
+    width: 320px;
   }
 }
