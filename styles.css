@@ -272,10 +272,10 @@ nav {
 
 .intro__p2-logo-p {
   text-align: center;
-  font-size: 25px;
-  line-height: 30px;
-  text-shadow: 0 0 7px var(--aqua), 0 0 31px var(--aqua), 0 0 92px var(--aqua),
-      0 0 100px var(--aqua);
+  font-size: 20px;
+  line-height: 25px;
+  text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange), 0 0 92px var(--orange),
+      0 0 100px var(--orange);
 }
 
 /*****************  PART II --- Original content  ******************/
