@@ -36,6 +36,7 @@
   background-color: var(--p3bg);
   color: var(--silver);
   font-family: Helvetica, Arial, sans-serif;
+  background-position: 70% 0;
 }
 
 a:link,
@@ -116,7 +117,7 @@ nav {
   text-align: center;
   margin-bottom: 50px;
   text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange),
-    0 0 92px var(--orange), 0 0 151px var(--orange);
+      0 0 92px var(--orange), 0 0 151px var(--orange);
 }
 
 /************** PART III --- Main Content *****************/
@@ -128,6 +129,7 @@ nav {
 
 .art__p3-p {
   margin-top: 25px;
+  margin-bottom: 25px;
   width: 98%;
   color: var(--silver);
   opacity: 1;
@@ -217,28 +219,43 @@ nav {
   opacity: 1;
 }
 
+.screen-reader-link {
+  position: absolute;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.footer__p3 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: var(--p3bg);
+  color: var(--silver);
+  padding: 20px;
+}
+
 /*************************************************************/
 
 /***************** Back to the Future II *********************/
 .body__p2 {
-
-    background-image: url(photos/NBP-grit-13\ copy.jpg);
-    margin: auto;
-    padding: 0;
-    background-color: var(--p2bg);
-    background-attachment: fixed;
-    background-repeat: epeat;
-    background-size: 100%;
-    min-height: 100vh;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    font-family: Helvetica, Arial, sans-serif;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-family: 'Helvetica 25 UltraLight', sans-serif;
-    font-family: 'Helvetica 35 Thin', sans-serif;
-    font-family: 'Helvetica 45 Light', sans-serif;
-    font-family: 'Helvetica 55 Roman', sans-serif;
-    font-family: 'Helvetica 65 Medium', sans-serif;
+  background-image: url(photos/NBP-grit-13\ copy.jpg);
+  margin: auto;
+  padding: 0;
+  background-color: var(--p2bg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+  font-family: "Helvetica 35 Thin", sans-serif;
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-family: "Helvetica 55 Roman", sans-serif;
+  font-family: "Helvetica 65 Medium", sans-serif;
 }
 
 /***************** Part II Nav Bar & logo ********************/
@@ -258,7 +275,7 @@ nav {
   font-size: 25px;
   line-height: 30px;
   text-shadow: 0 0 7px var(--aqua), 0 0 31px var(--aqua), 0 0 92px var(--aqua),
-    0 0 100px var(--aqua);
+      0 0 100px var(--aqua);
 }
 
 /*****************  PART II --- Original content  ******************/
@@ -345,57 +362,62 @@ nav {
   margin: 0 auto;
 }
 
-/**************** Media Queries ************************/
+/*****************  PART 1 css ******************/
+
+.body__p1 {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.3em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-color: var(--p3bg);
+  color: var(--silver);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.main__hero {
+  height: 800px;
+  background-image: url(./photos/p1_hero-image.jpeg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.logo {
+  width: 400px;
+  margin-top: 450px;
+  margin-left: 120px;
+}
+
+.hero__action {
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  width: 400px;
+  margin-left: 120px;
+  text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange),
+      0 0 92px var(--orange), 0 0 151px var(--orange);
+}
+
+.main {
+  margin-bottom: 48px;
+}
 
 
-@media screen and (max-width: 600px) {
-
-  .navbar a.link {
-      font-size: 20px;
-      color: var(--silver);
-      padding: 12px;
-  }
-  
-  .intro__p3 {
-      display: inline-block;
-      padding-top: 100px;
-      color: var(--silver);
-  }
-  
-  .intro__p3-logo {
-      width: 300px;
-  }
-
-  .body__p3 {
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: 160%;
-      background-position: 70% 0;
-      font-size: 1em;
-  }
-
-  .img__p3-boxv {
-    display: none;
-  }
-  
-  .img__p3-box-imgv {
-    width: 200px;
-    padding: 20px;
-  }
-
-  h1 {
-      font-size: 30px;
-  }
-
-  .sec__img-p3 {
-      display: flex;
-      justify-content: center;
-  }
-
-  .img__p3-wrap {
-      max-width: min-content;
-  }
-
+.main__img {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: 6px;
 }
 
 .screen-reader-link {
@@ -406,10 +428,195 @@ nav {
   white-space: nowrap;
 }
 
-.footer__p3 {
-  text-align: center;
-  margin-top: 20px;
-  background-color: var(--p3bg);
-  color: var(--silver);
-  padding: 20px;
-}
+.body__index {
+
+  background-image: url(./photos/background.jpeg);
+  margin: auto;
+  padding: 0;
+  background-color: var(--p2bg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      min-height: 100vh;
+      font-size: 1.2em;
+      line-height: 1.2em;
+      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-family: 'Helvetica 25 UltraLight', sans-serif;
+      font-family: 'Helvetica 35 Thin', sans-serif;
+      font-family: 'Helvetica 45 Light', sans-serif;
+      font-family: 'Helvetica 55 Roman', sans-serif;
+      font-family: 'Helvetica 65 Medium', sans-serif;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** Media Queries ************************/
+
+
+  @media screen and (max-width: 600px) {
+
+      .navbar a.link {
+          font-size: 20px;
+          color: var(--silver);
+          padding: 12px;
+      }
+
+      .intro__p3 {
+          display: inline-block;
+          padding-top: 100px;
+          color: var(--silver);
+      }
+
+      .intro__p3-logo {
+          width: 300px;
+      }
+
+      .body__p3 {
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 160%;
+          background-position: 70% 0;
+          font-size: 1em;
+      }
+
+      h1 {
+          font-size: 30px;
+      }
+
+      .sec__img-p3 {
+          display: flex;
+          justify-content: center;
+      }
+
+      .img__p3-wrap {
+          max-width: min-content;
+      }
+
+      .main__hero {
+          padding-top: 20px;
+      }
+
+      .logo {
+          width: 300px;
+      }
+  }
