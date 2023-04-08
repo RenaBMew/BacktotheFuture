@@ -129,7 +129,7 @@ nav {
 
 .art__p3-p {
   margin-top: 25px;
-margin-bottom: 25px;
+  margin-bottom: 25px;
   width: 98%;
   color: var(--silver);
   opacity: 1;
@@ -218,65 +218,6 @@ margin-bottom: 25px;
 .img__p3-box:hover .img__p3-caption {
   opacity: 1;
 }
-
-/**************** Media Queries ************************/
-
-@media screen and (max-width: 600px) {
-  .navbar a.link {
-    font-size: 20px;
-    color: var(--silver);
-    padding: 12px;
-  }
-
-  .intro__p3 {
-    display: inline-block;
-    padding-top: 100px;
-    color: var(--silver);
-  }
-
-  .intro__p3-logo {
-    width: 300px;
-  }
-
-  .body__p3 {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 160%;
-    background-position: 70% 0;
-    font-size: 1em;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  .sec__img-p3 {
-    display: flex;
-    justify-content: center;
-  }
-
-  .img__p3-wrap {
-    max-width: min-content;
-  }
-}
-
-.screen-reader-link {
-  position: absolute;
-  width: 1px;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.footer__p3 {
-  text-align: center;
-  margin-top: 20px;
-  background-color: var(--p3bg);
-  color: var(--silver);
-  padding: 20px;
-}
-
-/*************************************************************/
 
 /***************** Back to the Future II *********************/
 .body__p2 {
@@ -427,7 +368,6 @@ margin-bottom: 25px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  
 }
 
 .logo {
@@ -437,7 +377,7 @@ margin-bottom: 25px;
 }
 
 .hero__action {
-    text-align: center;
+  text-align: center;
   font-size: 16px;
   position: relative;
   line-height: 180%;
@@ -452,7 +392,6 @@ margin-bottom: 25px;
   margin-bottom: 48px;
 }
 
-<<<<<<< HEAD
 .main__img {
   float: left;
   width: 300px;
@@ -467,31 +406,56 @@ margin-bottom: 25px;
   clip: rect(0 0 0 0);
   overflow: hidden;
   white-space: nowrap;
-=======
-.body__index {
-
-    background-image: url(photos/background.jpeg);
-    margin: auto;
-    padding: 0;
-    background-color: var(--p2bg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 100vh;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    font-family: Helvetica, Arial, sans-serif;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-family: 'Helvetica 25 UltraLight', sans-serif;
-    font-family: 'Helvetica 35 Thin', sans-serif;
-    font-family: 'Helvetica 45 Light', sans-serif;
-    font-family: 'Helvetica 55 Roman', sans-serif;
-    font-family: 'Helvetica 65 Medium', sans-serif;
->>>>>>> dcc93840fe3efcffeec5f5b2165c73b2072929ca
 }
 
+.footer__p3 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: var(--p3bg);
+  color: var(--silver);
+  padding: 20px;
+}
+
+/**************** Media Queries ************************/
+
 @media screen and (max-width: 600px) {
- 
+  .navbar a.link {
+    font-size: 20px;
+    color: var(--silver);
+    padding: 12px;
+  }
+
+  .intro__p3 {
+    display: inline-block;
+    padding-top: 100px;
+    color: var(--silver);
+  }
+
+  .intro__p3-logo {
+    width: 300px;
+  }
+
+  .body__p3 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: 70% 0;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .sec__img-p3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img__p3-wrap {
+    max-width: min-content;
+  }
+
   .main__hero {
     padding-top: 20px;
   }
