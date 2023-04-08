@@ -16,14 +16,14 @@
 }
 
 .body__p3 {
-    background-image: url(./images.p3/p3.bg.png);
+    background-image: url(./photos/p3.bg.png);
     background-color: var(--p3bg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 100vh;
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.3em;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -40,28 +40,33 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Franklin Gothic Heavy', italic;
-    color: var(--yellow);
-    font-size: 35px;
+    font-family: 'Franklin Gothic Heavy', 'Changa One', Impact;
     font-style: italic;
+    color: var(--yellow);
+    font-size: 2em;
     padding: 10px;
 }
 
 h2,
 h3,
 h4 {
-    font-family: 'Franklin Gothic Heavy', italic;
+    font-family: 'Franklin Gothic Heavy', 'Changa One', Impact;
+    font-style: italic;
     color: var(--aqua);
-    font-size: 30px;
+    font-size: 1.5em;
     text-align: left;
 }
 
 /************** PART III --- Navigation Bar *****************/
 
 nav {
+    background-color: rgba(5, 9, 18, .3);
+    position: fixed;
     display: flex;
+    width: 100%;
     margin: 0;
     padding: 0;
+    z-index: 999;
 }
 
 .navname {
@@ -69,7 +74,8 @@ nav {
 }
 
 .navbar a.link {
-    font-size: 28px;
+    font-family: 'Franklin Gothic Heavy', 'Changa One', Impact;
+    font-size: 1.5em;
     color: var(--silver);
     padding: 12px;
 }
@@ -97,6 +103,7 @@ nav {
 
 .intro__p3-logo-p {
     text-align: center;
+    margin-bottom: 50px;
     text-shadow:
         0 0 7px var(--orange),
         0 0 31px var(--orange),
@@ -193,54 +200,13 @@ nav {
 }
 
 .img__p3-caption-p {
+    margin-top: 50px;
     padding: 10px;
     text-align: center;
     color: var(--yellow);
 }
 
 .img__p3-box:hover .img__p3-caption {
-    opacity: 1;
-}
-
-.img__p3-boxv {
-    float: left;
-    width: 300px;
-    height: 450px;
-    position: relative;
-    margin: 15px;
-    cursor: pointer;
-}
-
-.img__p3-box-imgv {
-    width: 300px;
-    height: 450px;
-    position: absolute;
-    border-radius: 20px 40px;
-    border: 2px solid var(--yellow);
-}
-
-.img__p3-captionv {
-    width: 100%;
-    height: 100%;
-    background: rgba(43, 46, 51, 0.9);
-    position: absolute;
-    opacity: 0;
-    border-radius: 20px 40px;
-    border: 2px solid var(--yellow);
-    transition: all 600ms ease-in-out;
-    -webkit-transition: all 600ms ease-in-out;
-    -moz-transition: all 600ms ease-in-out;
-    -o-transition: all 600ms ease-in-out;
-    -ms-transition: all 600ms ease-in-out;
-}
-
-.img__p3-caption-pv {
-    padding: 10px;
-    text-align: center;
-    color: var(--yellow);
-}
-
-.img__p3-boxv:hover .img__p3-captionv {
     opacity: 1;
 }
 
@@ -305,74 +271,140 @@ nav {
     padding: 20px;
 }
 
-/**********Home_Page********/
+/*************************************************************/
 
+/***************** Back to the Future II *********************/
+.body__p2 {
 
-.heroBanner{
-    position: relative;
- }
-
- .heroBanner img{
-    object-fit: cover;
-    width: 100%;
-    display: block;
- }
-
- footer{
-    background-color: navy;
-    text-align: center;
-    color: silver;
-    padding: 20px 0;
-    bottom: 0;
-    width: 100%;
- }
- a:link,
- a:visited,
- a:active {
-     color:#ffb219;
-     font-weight: bold;
-     text-decoration: none;
- }
- 
- a:hover {
-     color: var(--aqua);
- }
-
-
- h1{
-    font-family: 'Franklin Gothic 25 HeavyItalic', sans-serif;
- }
-
- h2{
-    font-family: 'Franklin Gothic 20 HeavyItalic', sans-serif;
- }
-
- p, a{
-    font-family: 'Helvetica', sans-serif;
- }
-
- nav {
-    display: flex;
-    margin: 0;
+    background-image: url(photos/NBP-grit-13\ copy.jpg);
+    margin: auto;
     padding: 0;
+    background-color: var(--p2bg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
 }
 
-.header__link {
-    font-size: 30px;
-    padding: 80px 0 0 0;
-    margin-right: 40px;
-    color: #ffb219;
+
+  /***************** Part II Nav Bar & logo ********************/
+
+
+.intro__p2 {
+    display: inline-block;
+    padding-top: 300px;
+    color: var(--silver);
 }
-  .header__link, .header__logo, .main__link {
-    text-decoration: none;
+
+.intro__p2-logo {
+    width: 450px;
+}
+
+.intro__p2-logo-p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    text-shadow:
+        0 0 7px var(--aqua),
+        0 0 31px var(--aqua),
+        0 0 92px var(--aqua),
+        0 0 100px var(--aqua);
+}
+
+/*****************  PART II --- Original content  ******************/
+
+#hero {
+    height:900px;
+    background-image: url(photos/bttf2covergraphic.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:start;
+    max-height: 450px;
+    margin-bottom: 0;
+    padding-left: 30px;
   }
+
+.img__p2-cast {
+    display: block;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid var(--yellow);
+    margin: 10px;
+}
+
+.img__p2-cast-info {
+    margin-bottom: 25px;
+    color: var(--yellow);
+    text-align: center;
+}
   
-  .nav > a:not(:first-of-type){
-    margin-left: 24px;
-  }
-  
-  .header__logo {
-    margin-right: auto;
-    text-transform: uppercase;
-    max-height: 260px;
-  }
+.img__p3-boxv {
+    float: left;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.img__p3-box-imgv {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    border-radius: 20px 40px;
+    border: 2px solid var(--yellow);
+}
+
+.img__p3-captionv {
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 46, 51, 1);
+    position: absolute;
+    opacity: 0;
+    border-radius: 20px 40px;
+    border: 2px solid var(--yellow);
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+}
+
+.img__p3-caption-pv {
+    padding: 10px;
+    text-align: center;
+    color: var(--yellow);
+}
+
+.img__p3-boxv:hover .img__p3-captionv {
+    opacity: 1;
+}
+
+#img-boxes-p2 {
+    margin: 0 50px;
+}
+
+.vimages {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(5, 9, 18, .8);
+    margin: 0 auto;
+}
+
+
+
+
+
