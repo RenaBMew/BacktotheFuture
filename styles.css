@@ -533,6 +533,8 @@ nav {
   margin-top: 0px;
   margin-left: 120px;
   margin-bottom: 350px;
+  text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange),
+    0 0 92px var(--orange), 0 0 151px var(--orange);
 }
 
 .main {
@@ -563,7 +565,7 @@ nav {
   }
 
   .main__hero {
-    padding-top: 120px;
+    padding-top: 20px;
   }
 
   .logo {
