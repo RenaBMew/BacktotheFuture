@@ -219,47 +219,6 @@ margin-bottom: 25px;
   opacity: 1;
 }
 
-/**************** Media Queries ************************/
-
-@media screen and (max-width: 600px) {
-  .navbar a.link {
-    font-size: 20px;
-    color: var(--silver);
-    padding: 12px;
-  }
-
-  .intro__p3 {
-    display: inline-block;
-    padding-top: 100px;
-    color: var(--silver);
-  }
-
-  .intro__p3-logo {
-    width: 300px;
-  }
-
-  .body__p3 {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 160%;
-    background-position: 70% 0;
-    font-size: 1em;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  .sec__img-p3 {
-    display: flex;
-    justify-content: center;
-  }
-
-  .img__p3-wrap {
-    max-width: min-content;
-  }
-}
-
 .screen-reader-link {
   position: absolute;
   width: 1px;
@@ -452,7 +411,7 @@ margin-bottom: 25px;
   margin-bottom: 48px;
 }
 
-<<<<<<< HEAD
+
 .main__img {
   float: left;
   width: 300px;
@@ -467,10 +426,10 @@ margin-bottom: 25px;
   clip: rect(0 0 0 0);
   overflow: hidden;
   white-space: nowrap;
-=======
+
 .body__index {
 
-    background-image: url(photos/background.jpeg);
+    background-image: url(./photos/background.jpeg);
     margin: auto;
     padding: 0;
     background-color: var(--p2bg);
@@ -487,11 +446,173 @@ margin-bottom: 25px;
     font-family: 'Helvetica 45 Light', sans-serif;
     font-family: 'Helvetica 55 Roman', sans-serif;
     font-family: 'Helvetica 65 Medium', sans-serif;
->>>>>>> dcc93840fe3efcffeec5f5b2165c73b2072929ca
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** Media Queries ************************/
+
+
 @media screen and (max-width: 600px) {
- 
+
+    .navbar a.link {
+        font-size: 20px;
+        color: var(--silver);
+        padding: 12px;
+    }
+    
+    .intro__p3 {
+        display: inline-block;
+        padding-top: 100px;
+        color: var(--silver);
+    }
+    
+    .intro__p3-logo {
+        width: 300px;
+    }
+
+    .body__p3 {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 160%;
+        background-position: 70% 0;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .sec__img-p3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__p3-wrap {
+        max-width: min-content;
+    }
+    
   .main__hero {
     padding-top: 20px;
   }
