@@ -354,17 +354,17 @@ nav {
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height: 100vh;
   display: inline-block;
   flex-direction: column;
   justify-content: space-evenly;
   color: var(--silver);
+  max-height: 700px;
 }
 
 .logo {
   width: 450px;
   margin-top: 250px;
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 .hero__action {
@@ -374,7 +374,7 @@ nav {
   line-height: 180%;
   letter-spacing: 0.02em;
   width: 400px;
-  margin-left: 120px;
+  margin-left: 80px;
   text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange),
     0 0 92px var(--orange), 0 0 151px var(--orange);
 }
@@ -451,6 +451,8 @@ nav {
 
   .navbar__p1 a.link {
     color: var(--silver);
+    /* font-size: 20px;*/ /** changes affect nav bar mob version but not in all modes **/
+    padding: 12px;
   }
 
   .body__p1 {
@@ -461,8 +463,9 @@ nav {
   }
 
   .logo {
-    width: 260px;
-    margin-top: 100px;
+    width: 120px;
+    margin-top: 250px;
+    margin-bottom: 40px;
     margin-left: 50px;
     text-align: start;
   }
@@ -480,7 +483,6 @@ nav {
     justify-content: center;
     align-items: start;
     max-height: 450px;
-    margin-bottom: 0px;
   }
 
   .hero__action {
@@ -495,6 +497,18 @@ nav {
   .art__p1 {
     margin-top: 0px;
     padding-right: 0px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 473px) {
+  .logo {
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 50px;
+    text-align: start;
+  }
+
+  .art__p1 {
     width: 140%;
   }
 
@@ -502,6 +516,7 @@ nav {
     width: 95%;
   }
 }
+
 /****************PART 2 MEDIA QUERIES ********************/
 
 @media screen and (max-width: 820px) {
