@@ -35,7 +35,28 @@
             <img src="./photos/p1-logo.png" class="intro__p3-logo">
         </section>
 
-        <section style="margin-top:100px;"> 
+        <section class="animation">
+            <img src="photos/carfinal.png" class="flying" width="400px">
+            <style>
+            .flying {
+                position: relative;
+                top: 50%;
+                left: 0px;
+                animation: fly .5s linear forwards;
+               }
+             
+               @keyframes fly {
+                0% {
+                 transform: translateX(0px);
+                }
+                100% {
+                 transform: translateX(1000px);
+                }
+               }
+            </style>
+        </section>
+
+        <section> 
             <article class="art__p3">
                 <h1>Welcome Back, to the Future.</h1>
         
@@ -58,26 +79,6 @@
                 </article>
         </section>
 
-        <section class="animation">
-            <img src="photos/carfinal.png" class="flying" width="400px">
-            <style>
-            .flying {
-                position: relative;
-                top: 50%;
-                left: 0px;
-                animation: fly .5s linear forwards;
-               }
-             
-               @keyframes fly {
-                0% {
-                 transform: translateX(0px);
-                }
-                100% {
-                 transform: translateX(1000px);
-                }
-               }
-            </style>
-        </section>
     </main>
 
     <footer class="footer__p3">
