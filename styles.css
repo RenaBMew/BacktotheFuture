@@ -36,6 +36,7 @@
   background-color: var(--p3bg);
   color: var(--silver);
   font-family: Helvetica, Arial, sans-serif;
+  background-position: 70% 0;
 }
 
 a:link,
@@ -128,6 +129,7 @@ nav {
 
 .art__p3-p {
   margin-top: 25px;
+margin-bottom: 25px;
   width: 98%;
   color: var(--silver);
   opacity: 1;
@@ -425,6 +427,7 @@ nav {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
 }
 
 .logo {
@@ -434,6 +437,7 @@ nav {
 }
 
 .hero__action {
+    text-align: center;
   font-size: 16px;
   position: relative;
   line-height: 180%;
@@ -487,17 +491,12 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar a.link {
-    font-size: 20px;
-    color: var(--silver);
-    padding: 12px;
-  }
-
+ 
   .main__hero {
     padding-top: 20px;
   }
 
   .logo {
-    width: 320px;
+    width: 300px;
   }
 }
