@@ -299,12 +299,6 @@ nav {
 
 /***************** Part II Nav Bar & logo ********************/
 
-.nav > a:not(:first-of-type) {
-  margin-left: 24px;
-}
-
-/***************** Part II Nav Bar & logo ********************/
-
 .intro__p2 {
   display: inline-block;
   padding-top: 300px;
@@ -409,21 +403,6 @@ nav {
 
 /*****************  PART 1 css ******************/
 
-* {
-  margin: 0;
-  border: 0;
-}
-
-:root {
-  --navy: #151542;
-  --gray: #77777d;
-  --silver: #e9eaeb;
-  --aqua: #3db9d1;
-  --yellow: #ffb219;
-  --orange: #f22727;
-  --p3bg: #050912;
-}
-
 .body__p1 {
   margin: 0;
   font-size: 1.3rem;
@@ -437,74 +416,6 @@ nav {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-family: "Franklin Gothic Heavy", "Changa One", Impact;
-  font-style: italic;
-  color: var(--yellow);
-  padding: 10px;
-}
-
-h2 {
-  position: relative;
-  color: var(--aqua);
-  font-size: 1.5em;
-  font-family: "Franklin Gothic Heavy", "Changa One", Impact;
-  font-style: italic;
-  margin-top: 50px;
-  padding: 10px;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-a:link,
-a:visited,
-a:active {
-  color: var(--orange);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--aqua);
-}
-
-nav {
-  background-color: rgba(5, 9, 18, 0.3);
-  position: fixed;
-  display: flex;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  z-index: 999;
-}
-
-.navname {
-  margin-right: auto;
-}
-
-.navbar a.link {
-  font-family: "Franklin Gothic Heavy", "Changa One", Impact;
-  font-size: 1.5em;
-  color: var(--silver);
-  padding: 12px;
-}
-
-.navbar a:hover:not(.active) {
-  color: var(--navy);
-  background-color: var(--yellow);
-}
-
-.navbar a.active {
-  background-color: rgb(0, 0, 0);
-}
-
 .main__hero {
   height: 800px;
   background-image: url(./photos/p1_hero-image.jpeg);
@@ -514,7 +425,6 @@ nav {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .logo {
@@ -526,13 +436,10 @@ nav {
 .hero__action {
   font-size: 16px;
   position: relative;
-  line-height: 80%;
+  line-height: 180%;
   letter-spacing: 0.02em;
   width: 400px;
-  height: 220px;
-  margin-top: 0px;
   margin-left: 120px;
-  margin-bottom: 350px;
   text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange),
     0 0 92px var(--orange), 0 0 151px var(--orange);
 }
