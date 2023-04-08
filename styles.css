@@ -447,12 +447,10 @@ nav {
 @media screen and (max-width: 600px) {
   .navbar__p1 {
     color: var(--silver);
-    padding: 12px;
   }
 
   .navbar__p1 a.link {
     color: var(--silver);
-    padding: 12px;
   }
 
   .body__p1 {
