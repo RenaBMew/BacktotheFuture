@@ -622,4 +622,45 @@ nav {
       .logo {
           width: 300px;
       }
+    }
+      /****************PART 2 MEDIA QUERIES ********************/
+
+      @media screen and (max-width: 820px) {
+      #hero img {
+        width: 200px;
+        float:left;
+      }
+
+      #hero .intro__p2-logo-p {
+        font-size: 18px;
+        text-align: start;
+      }
+
+      #hero {
+        background-image: url(photos/bttf2covergraphic.jpg);
+        background-size:cover;
+        background-position: top;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: start;
+        max-height: 450px;
+        margin-bottom: 0;
+      }
+
+      .body__p2 {
+        background-image: url(photos/NBP-grit-13\ copy.jpg);
+        margin: auto;
+        padding: 0;
+        background-color: var(--p2bg);
+        background-attachment:scroll;
+        background-repeat:repeat;
+        justify-content: center;
+      }
+
+      .img__p3-boxv {
+        display: none;
+      }
+
+
   }
