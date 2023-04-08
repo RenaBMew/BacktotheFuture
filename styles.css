@@ -420,6 +420,28 @@ nav {
   padding: 20px;
 }
 
+/**************** HOME ************************/
+
+.body__index {
+  background-image: url(./photos/background.jpeg);
+  margin: auto;
+  padding: 0;
+  background-color: var(--p2bg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+  font-family: "Helvetica 35 Thin", sans-serif;
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-family: "Helvetica 55 Roman", sans-serif;
+  font-family: "Helvetica 65 Medium", sans-serif;
+}
+
 /**************** Media Queries Part I ************************/
 
 @media screen and (max-width: 600px) {
@@ -475,6 +497,11 @@ nav {
   .art__p1 {
     margin-top: 0px;
     padding-right: 0px;
+    width: 140%;
+  }
+
+  .art__p1-p {
+    width: 95%;
   }
 }
 /****************PART 2 MEDIA QUERIES ********************/
