@@ -211,66 +211,6 @@ nav {
 }
 
 
-/**************** Media Queries ************************/
-
-
-@media screen and (max-width: 600px) {
-
-    .navbar a.link {
-        font-size: 20px;
-        color: var(--silver);
-        padding: 12px;
-    }
-    
-    .intro__p3 {
-        display: inline-block;
-        padding-top: 100px;
-        color: var(--silver);
-    }
-    
-    .intro__p3-logo {
-        width: 300px;
-    }
-
-    .body__p3 {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 160%;
-        background-position: 70% 0;
-        font-size: 1em;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    .sec__img-p3 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img__p3-wrap {
-        max-width: min-content;
-    }
-
-}
-
-.screen-reader-link {
-    position: absolute;
-    width: 1px;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.footer__p3 {
-    text-align: center;
-    margin-top: 20px;
-    background-color: var(--p3bg);
-    color: var(--silver);
-    padding: 20px;
-}
-
 /*************************************************************/
 
 /***************** Back to the Future II *********************/
@@ -281,11 +221,11 @@ nav {
     padding: 0;
     background-color: var(--p2bg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     min-height: 100vh;
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.3em;
     font-family: Helvetica, Arial, sans-serif;
     font-family: 'Helvetica Neue', sans-serif;
     font-family: 'Helvetica 25 UltraLight', sans-serif;
@@ -404,7 +344,66 @@ nav {
     margin: 0 auto;
 }
 
+/**************** Media Queries ************************/
 
 
+@media screen and (max-width: 600px) {
 
+    .navbar a.link {
+        font-size: 20px;
+        color: var(--silver);
+        padding: 12px;
+    }
+    
+    .intro__p3 {
+        display: inline-block;
+        padding-top: 100px;
+        color: var(--silver);
+    }
+    
+    #hero {
+        height: auto;
+    }
+    
+    .intro__p3-logo {
+        width: 300px;
+    }
 
+    .body__p3 {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 160%;
+        background-position: 70% 0;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .sec__img-p3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__p3-wrap {
+        max-width: min-content;
+    }
+
+}
+
+.screen-reader-link {
+    position: absolute;
+    width: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.footer__p3 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--p3bg);
+    color: var(--silver);
+    padding: 20px;
+}
