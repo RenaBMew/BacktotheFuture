@@ -411,6 +411,9 @@ nav {
   margin-bottom: 48px;
 }
 
+.img__p3-box-imgv {
+  display: none;
+}
 
 .main__img {
   float: left;
