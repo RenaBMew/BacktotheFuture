@@ -448,6 +448,7 @@ nav {
   margin-bottom: 48px;
 }
 
+<<<<<<< HEAD
 .main__img {
   float: left;
   width: 300px;
@@ -462,6 +463,27 @@ nav {
   clip: rect(0 0 0 0);
   overflow: hidden;
   white-space: nowrap;
+=======
+.body__index {
+
+    background-image: url(photos/background.jpeg);
+    margin: auto;
+    padding: 0;
+    background-color: var(--p2bg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+>>>>>>> dcc93840fe3efcffeec5f5b2165c73b2072929ca
 }
 
 @media screen and (max-width: 600px) {
