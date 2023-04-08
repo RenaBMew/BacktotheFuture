@@ -299,11 +299,6 @@ nav {
   /***************** Part II Nav Bar & logo ********************/
 
 
-  
-.nav > a:not(:first-of-type){
-    margin-left: 24px;
-  }
-  
 .intro__p2 {
     display: inline-block;
     padding-top: 300px;
