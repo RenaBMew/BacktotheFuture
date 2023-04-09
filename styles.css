@@ -459,7 +459,7 @@ nav {
 
   .intro__p3 {
     display: inline-block;
-    padding-top: 250px;
+    padding-top: 430px;
     color: var(--silver);
   }
 
@@ -468,22 +468,23 @@ nav {
   }
 
   .intro__p1-logo {
-    padding: 30px;
+    padding: 40px;
     width: 200px;
   }
 
   .body__p1 {
-    background-size: 180%;
+    background-size: 260%;
     background-position: 70% 0;
-    font-size: 1em;
+  }
+
+  .body__index {
+    background-size: 250%;
+    background-position: 70% 0;
   }
 
   .body__p3 {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 160%;
-    background-position: 70% 0;
-    font-size: 1em;
+    background-size: 270%;
+    background-position: 65% 0;
   }
 
   h1 {
