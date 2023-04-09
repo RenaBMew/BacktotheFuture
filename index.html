@@ -1,100 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Back to the Future, Marty McFly, Doc Brown, Great Scott!, 1.81 Gigawatts, 88MPH, Delorean"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Back to the Future, Marty McFly, Doc Brown, Great Scott!, 1.81 Gigawatts, 88MPH, Delorean">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet"> 
-
-    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/86/86503.png">
-    <link rel="stylesheet" href="styles.css">
-
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/86/86503.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Back to the Future Home Page</title>
-</head>
+  </head>
 
-<body class="body__index">
+  <body class="body__index">
     <header>
-        <nav class="navbar">
-            <a class="link navname" href="index.html">Home</a>
-            <a class="link" href="part1.html">Part I</a>
-            <a class="link" href="part2.html">Part II</a>
-            <a class="link" href="part3.html">Part III</a>
-        </nav>
+      <nav class="navbar">
+        <a class="link navname" href="index.html">Home</a>
+        <a class="link" href="part1.html">Part I</a>
+        <a class="link" href="part2.html">Part II</a>
+        <a class="link" href="part3.html">Part III</a>
+      </nav>
     </header>
 
     <main>
+      <section class="intro__p3">
+        <img src="./photos/p1-logo.png" class="intro__p3-logo" />
+      </section>
 
-        <section class="intro__p3">
-            <img src="./photos/p1-logo.png" class="intro__p3-logo">
-        </section>
+      <section class="animation">
+        <img src="photos/carfinal.png" class="flying" width="400px" />
+        <style>
+          .flying {
+            position: relative;
+            top: 50%;
+            left: 0px;
+            animation: fly 0.5s linear forwards;
+          }
 
-        <section class="animation">
-            <img src="photos/carfinal.png" class="flying" width="400px">
-            <style>
-            .flying {
-                position: relative;
-                top: 50%;
-                left: 0px;
-                animation: fly .5s linear forwards;
-               }
-             
-               @keyframes fly {
-                0% {
-                 transform: translateX(0px);
-                }
-                100% {
-                 transform: translateX(1000px);
-                }
-               }
-            </style>
-        </section>
+          @keyframes fly {
+            0% {
+              transform: translateX(0px);
+            }
+            100% {
+              transform: translateX(1000px);
+            }
+          }
+        </style>
+      </section>
 
-        <section> 
-            <article class="art__p3">
-                <h1>Welcome Back, to the Future.</h1>
-        
-                    <div class="img__p3-cast-box">
-                        <figure>
-                            <img src="./photos/Zemeckis.png" class="img__p3-cast" alt="Robert Zemeckis">
-                            <figcaption class="img__p3-cast-info">Robert Zemeckis <br>Co-Writer and Director</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./photos/Gale.png" class="img__p3-cast" alt="Bob Gale">
-                            <figcaption class="img__p3-cast-info">Bob Gale <br>Co-Creator</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./photos/Canton.png" class="img__p3-cast" alt="Neil Canton">
-                            <figcaption class="img__p3-cast-info">Neil Canton <br>Producer</figcaption>
-                        </figure>
-                    </div>                    
-                <p class="art__p3-p">
-                    In this 1980s sci-fi classic, small-town California teen, Marty McFly, gets lost in 1955 by an accident, 30 years back in time. Traveling through time in a modified DeLorean car, Marty encounters young versions of his parents, and must make sure that they fall in love or he'll cease to exist. Even more dauntingly, Marty has to return to his own time and save the life of Doc Brown.</p>
-                </article>
-        </section>
+      <section>
+        <article class="art__p3">
+          <h1>Welcome Back, to the Future.</h1>
 
+          <div class="img__p3-cast-box">
+            <figure>
+              <img
+                src="./photos/Zemeckis.png"
+                class="img__p3-cast"
+                alt="Robert Zemeckis"
+              />
+              <figcaption class="img__p3-cast-info">
+                Robert Zemeckis <br />Co-Writer and Director
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="./photos/Gale.png"
+                class="img__p3-cast"
+                alt="Bob Gale"
+              />
+              <figcaption class="img__p3-cast-info">
+                Bob Gale <br />Co-Creator
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="./photos/Canton.png"
+                class="img__p3-cast"
+                alt="Neil Canton"
+              />
+              <figcaption class="img__p3-cast-info">
+                Neil Canton <br />Producer
+              </figcaption>
+            </figure>
+          </div>
+          <p class="art__p3-p">
+            From Academy Award®-winning filmmakers Steven Spielberg and Robert
+            Zemeckis comes Back to the Future — the original, ground-breaking
+            adventure that sparked one of the most successful trilogies ever.
+          </p>
+        </article>
+      </section>
     </main>
 
     <footer class="footer__p3">
-        This website is for educational purposes only.
-        <br>Thank you to
-        <a href="https://www.backtothefuture.com/" target="_blank">
-            Back to the Future.com
-            <span class="screen-reader-link">
-                (opens in a new tab)
-            </span>
-        </a> and <a href="https://en.wikipedia.org/wiki/Back_to_the_Future_Part_III" target="_blank">
-            Wikipedia
-            <span class="screen-reader-link">
-                (opens in a new tab)
-            </span> </a> for source information.
+      This website is for educational purposes only.
+      <br />Thank you to
+      <a href="https://www.backtothefuture.com/" target="_blank">
+        Back to the Future.com
+        <span class="screen-reader-link"> (opens in a new tab) </span>
+      </a>
+      and
+      <a
+        href="https://en.wikipedia.org/wiki/Back_to_the_Future_Part_III"
+        target="_blank"
+      >
+        Wikipedia
+        <span class="screen-reader-link"> (opens in a new tab) </span>
+      </a>
+      for source information.
     </footer>
-</body>
+  </body>
 </html>
-    
