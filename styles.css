@@ -342,7 +342,6 @@ nav {
 .body__p1 {
   background-image: url(./photos/p1_hero-image.jpeg);
   background-size: 100%;
-  background-position: 0px -200px;
   font-size: 1.2rem;
   line-height: 1.3em;
   min-height: 100vh;
