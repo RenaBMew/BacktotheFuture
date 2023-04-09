@@ -424,23 +424,44 @@ nav {
 
 .body__index {
   background-image: url(./photos/background.jpeg);
-  margin: auto;
-  padding: 0;
-  background-color: var(--p2bg);
+  background-color: var(--p3bg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 100vh;
   font-size: 1.2em;
-  line-height: 1.2em;
+  line-height: 1.3em;
   font-family: Helvetica, Arial, sans-serif;
-  font-family: "Helvetica Neue", sans-serif;
-  font-family: "Helvetica 25 UltraLight", sans-serif;
-  font-family: "Helvetica 35 Thin", sans-serif;
-  font-family: "Helvetica 45 Light", sans-serif;
-  font-family: "Helvetica 55 Roman", sans-serif;
-  font-family: "Helvetica 65 Medium", sans-serif;
 }
+
+.animation  {
+  position: relative;
+  top: 50%;
+  left: 0px;
+  animation: fly .5s linear forwards;
+  animation-timing-function: ease-out;
+  animation-name: flying; 
+  position: relative;
+  top: 50%;
+  left: 0px;
+  animation: fly .5s linear forwards;
+  
+   }
+  
+
+ @keyframes fly {
+  0% {
+   transform: translateX(0px);
+  }
+  90% {
+   transform: translateX(1000px);
+  }
+   100% {
+    opacity: 0;
+    display: none;
+   }
+  }
+ 
 
 /**************** Media Queries Part I ************************/
 
