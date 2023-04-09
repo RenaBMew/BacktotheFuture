@@ -445,13 +445,9 @@ nav {
 /**************** Media Queries Part I ************************/
 
 @media screen and (max-width: 600px) {
-  .navbar__p1 {
-    color: var(--silver);
-  }
-
   .navbar__p1 a.link {
     color: var(--silver);
-    /* font-size: 20px;*/ /** changes affect nav bar mob version but not in all modes **/
+    font-size: 20px;
     padding: 12px;
   }
 
@@ -507,10 +503,10 @@ nav {
     margin-left: 50px;
     text-align: start;
   }
-
+  /* 
   .art__p1 {
     width: 140%;
-  }
+  } */ /* it seems to work in inspect mode when it's 140%, otherwise article is pushed to the left */
 
   .art__p1-p {
     width: 95%;
