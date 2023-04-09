@@ -55,6 +55,10 @@ h4 {
   text-align: left;
 }
 
+ol {
+  color: var(--silver)
+}
+
 /************** PART III --- Navigation Bar *****************/
 
 nav {
@@ -239,6 +243,7 @@ nav {
   text-align: center;
   font-size: 20px;
   line-height: 25px;
+  padding-left: 30px;
   text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange),
     0 0 92px var(--orange), 0 0 100px var(--orange);
 }
@@ -342,62 +347,6 @@ nav {
   background-attachment: fixed;
 }
 
-.main__hero {
-  height: 800px;
-  padding-top: 100px;
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  display: inline-block;
-  flex-direction: column;
-  justify-content: space-evenly;
-  color: var(--silver);
-  max-height: 700px;
-}
-
-.logo {
-  width: 450px;
-  margin-top: 250px;
-  margin-left: 80px;
-}
-
-.hero__action {
-  text-align: center;
-  font-size: 16px;
-  position: relative;
-  line-height: 180%;
-  letter-spacing: 0.02em;
-  width: 400px;
-  margin-left: 80px;
-  text-shadow: 0 0 7px var(--orange), 0 0 31px var(--orange),
-    0 0 92px var(--orange), 0 0 151px var(--orange);
-}
-
-.main {
-  margin-bottom: 48px;
-}
-
-.art__p1 {
-  background-color: rgba(5, 9, 18, 0.8);
-  padding: 25px;
-}
-
-.art__p1-p {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  width: 98%;
-  color: var(--silver);
-  opacity: 1;
-}
-
-.art__p1-imgs {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(5, 9, 18, 0.8);
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
-
 .screen-reader-link {
   position: absolute;
   width: 1px;
@@ -438,10 +387,17 @@ nav {
   position: relative;
   top: 50%;
   left: 0px;
+<<<<<<< HEAD
   animation: fly 0.5s linear forwards;
 }
 
 @keyframes fly {
+=======
+  animation: fly .5s linear forwards;
+}
+  
+ @keyframes fly {
+>>>>>>> 9c5d17b42b92b479b2b99894a3e3800c11ac2727
   0% {
     transform: translateX(0px);
   }
@@ -452,6 +408,7 @@ nav {
     opacity: 0;
     display: none;
   }
+<<<<<<< HEAD
 }
 
 /**************** Media Queries Part I ************************/
@@ -524,12 +481,14 @@ nav {
     width: 95%;
   }
 }
+=======
+>>>>>>> 9c5d17b42b92b479b2b99894a3e3800c11ac2727
 
 /****************PART 2 MEDIA QUERIES ********************/
 
 @media screen and (max-width: 820px) {
   #hero img {
-    width: 200px;
+    width: 250px;
     float: left;
   }
 
@@ -565,7 +524,7 @@ nav {
   }
 }
 
-/**************** Part III ************************/
+/**************** Queries ************************/
 
 @media screen and (max-width: 600px) {
   .navbar a.link {
@@ -576,12 +535,17 @@ nav {
 
   .intro__p3 {
     display: inline-block;
-    padding-top: 100px;
+    padding-top: 250px;
     color: var(--silver);
   }
 
   .intro__p3-logo {
     width: 300px;
+  }
+  .body__p1 {
+    background-size: 180%;
+    background-position: 70% 0;
+    font-size: 1em;
   }
 
   .body__p3 {
@@ -603,5 +567,9 @@ nav {
 
   .img__p3-wrap {
     max-width: min-content;
+  }
+
+  .animation img {
+   width: 250px;
   }
 }

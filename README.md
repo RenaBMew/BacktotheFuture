@@ -24,6 +24,10 @@
 
 - Amy, Olivia and Jadelyn commited changes as they were working, Serena commited once the majority of her coding was complete.
 
+## Commits
+
+- Jadelyn has a lower amount fo commits due to working on project late and issues with merging.
+
 &nbsp;
 
 ## Website Style Guide
